@@ -1,0 +1,3 @@
+{
+  "object-shorthand": ["error", "never"],
+}
