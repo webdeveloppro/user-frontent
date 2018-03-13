@@ -1,12 +1,15 @@
 {
     "compilerOptions": {
-      // this aligns with Vue's browser support
-      "target": "es5",
-      // this enables stricter inference for data properties on `this`
-      "strict": true,
-      // if using webpack 2+ or rollup, to leverage tree shaking:
-      "module": "es2015",
-      "moduleResolution": "node",
-      "sourceMap": true
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": ["es2015", "dom"],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es5",
+        "importHelpers": true,
+        "noImplicitAny": true,
+        "noEmitHelpers": true,
+        "sourceMap": true
     }
-  }
+}
